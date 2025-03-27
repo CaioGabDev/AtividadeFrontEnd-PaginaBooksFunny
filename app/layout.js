@@ -8,4 +8,4 @@ import "./global.css";
 						<body>{children}</body>
 					</html>
 );
-		}
+}
