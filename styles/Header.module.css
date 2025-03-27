@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    align-items: center;
+}
+
+.navegation ul {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    gap: 2rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.input {
+    width: 20%;
+    height: 1.7rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 1px solid #03c30d;
+    background: linear-gradient(0.25turn, #ffffff 70%, #107d06);
+}
