@@ -17,7 +17,6 @@ export default function Header(){
             </ul>
             </div>
             <input className={styles.input} type="text" placeholder='Buscar livros, autores...' />
-            <img src="" alt="" />
         </header>
     );
 };

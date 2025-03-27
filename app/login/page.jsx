@@ -12,6 +12,7 @@ export default function Home() {
                 <p>Promoção de outono com até 30% de desconto!</p>
                 <button>Ver ofertas</button>
             </div>
+            <Card title={"Descrição"} text={"Olá meu nome é Caio, tenho 17 anos, no momento estou cursando Desenvolvimento de sistema no Senai Valinhos."} />   
         </div>
     )
 }
