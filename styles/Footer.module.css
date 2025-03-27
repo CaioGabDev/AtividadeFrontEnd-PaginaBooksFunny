@@ -1,5 +1,5 @@
 .footer {
-    background-color: #333;
+    background-color: #0f9965;
     color: white;
     text-align: center;
     padding: 10px;
@@ -8,6 +8,33 @@
     bottom: 0;
     width: 100%;
     z-index: 100;
-    font-size: 0.8em;
 }
 
+.title {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    display: flex;
+    font-size: 1.3rem;
+    text-align: justify;
+    width: 10rem;
+}
+
+.license{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    display: flex;
+    font-size: 1rem;
+}
+
+.terms {
+    display: flex;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
