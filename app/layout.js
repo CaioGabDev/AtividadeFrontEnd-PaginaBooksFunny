@@ -1,4 +1,4 @@
-
+import "./global.css";
 			export const metadata = {
 				title: "My First NextJS App",
 			};
