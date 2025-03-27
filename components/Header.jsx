@@ -16,7 +16,7 @@ export default function Header(){
                 <li>Genres</li>
             </ul>
             </div>
-            <input className={styles.input} type="text" />
+            <input className={styles.input} type="text" placeholder='Buscar livros, autores...' />
             <img src="" alt="" />
         </header>
     );
