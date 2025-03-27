@@ -1,16 +1,10 @@
-"use client";
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import Card from "../components/Card"
 
 export default function Home() {
-    const router = useRouter();
-
-    useEffect(() => {
-        router.push("/login");
-    }, [router]);
-
-    return (
-        <p>Redirecting...</p>
-    );
+return (
+    <div className={styles.container}>
+        <Card />
+    </div>
+    )
 }
