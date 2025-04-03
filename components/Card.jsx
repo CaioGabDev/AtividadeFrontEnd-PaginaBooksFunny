@@ -12,8 +12,8 @@ export default function Card({ image, title, author, price, rating}) {
         <div className={styles["prices"]}>
           <p className={styles.price}>{price}</p>
           <div className={styles.icons}>
-            <button>🛒</button>
             <button>❤️</button>
+            <button>🛒</button>
           </div>
         </div>
       </div>
