@@ -44,5 +44,12 @@
 
 .section h1 {
     color: #0f9965;
-    margin-left: 200px;
+    margin-left: 6rem;
+}
+
+.titleSection {
+    display: flex;
+    flex-direction: row;
+    gap: 37rem;
+    color: #1d9f6d;
 }
