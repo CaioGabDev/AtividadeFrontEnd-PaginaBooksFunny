@@ -1,5 +1,6 @@
 import styles from '../styles/Header.module.css';
 import Navegation from './Navegation';
+import SectionMoji from './SectionMoji';
 
 export default function Header(){
     return (
@@ -9,8 +10,8 @@ export default function Header(){
                 <p>Onde ler é a maior diversão</p>
             </div>
             <Navegation />
-            <input className={styles.input} type="text" placeholder='Buscar livros, autores...' />
-            <img src="" alt="" />
+            <input className={styles.input} type="text" placeholder='Buscar livros, autores...        🔎' />
+            <SectionMoji />
         </header>
     );
 };

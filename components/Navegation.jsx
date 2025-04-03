@@ -5,10 +5,11 @@ export default function Navegation() {
         <div className={styles.navegation}>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Books</li>
-                <li>Authors</li>
-                <li>Genres</li>
+                <li>Inicio</li>
+                <li>Livros</li>
+                <li>Categorias</li>
+                <li>Autores</li>
+                <li>Ofertas</li>
             </ul>
         </nav>
         </div>
