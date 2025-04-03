@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import Card from '../../components/Card';
 import styles from '../../styles/Home.module.css'; 
 import Footer from '../../components/Footer'; 
+import CardCategorie from '../../components/CardCategorie';
 
 export default function Home() {
     return (
@@ -22,6 +23,21 @@ export default function Home() {
             <Card image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" title="Livro de Programação" author="Caio Lacerda" price="R$ 100,00" rating={4.5} />
             <Card image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" title="Livro de Programação" author="Caio Lacerda" price="R$ 100,00" rating={4.5} />
             <Card image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" title="Livro de Programação" author="Caio Lacerda" price="R$ 100,00" rating={4.5} />
+            </div>
+            </div>
+            <div className={styles.section2}>
+            <div className={styles.titleSection}>
+            <h1>Categorias Populares</h1>
+            <p>Ver todos</p>
+            </div>
+            <div className={styles.cards2}>
+            <CardCategorie emoji="📚" title="Programação" />
+            <CardCategorie emoji="📚" title="Programação" />
+            <CardCategorie emoji="📚" title="Programação" />
+            <CardCategorie emoji="📚" title="Programação" />
+            <CardCategorie emoji="📚" title="Programação" />
+            <CardCategorie emoji="📚" title="Programação" />
+            <CardCategorie emoji="📚" title="Programação" />
             </div>
             </div>
             <Footer />

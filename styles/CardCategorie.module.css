@@ -1,0 +1,23 @@
+.cardCategoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 220, 220);
+    width: 20%;
+    height: 20%;
+    border-radius: 0.5rem;
+    color: rgb(48, 48, 48);
+}
+
+.cardCategoria:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: #0f9965;
+    color: white;
+}
+
+.cardCategoria p {
+    color: #1d9f6d;
+    font-size: 2rem;
+}

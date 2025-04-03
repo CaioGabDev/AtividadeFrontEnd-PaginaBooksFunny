@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .container {
     display: flex;
     flex-direction: column;
@@ -52,4 +54,13 @@
     flex-direction: row;
     gap: 37rem;
     color: #1d9f6d;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
 }
