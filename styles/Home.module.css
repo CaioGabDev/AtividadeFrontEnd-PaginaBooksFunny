@@ -63,4 +63,9 @@
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    width: 100%;
+}
+
+.section2 {
+    width: 100%;
 }
