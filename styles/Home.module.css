@@ -32,4 +32,16 @@
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    background-color: rgb(220, 220, 220);
+    width: 100%;
+}
+
+.section h1 {
+    color: #0f9965;
+    margin-left: 200px;
 }
