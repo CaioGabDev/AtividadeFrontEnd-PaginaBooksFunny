@@ -16,6 +16,7 @@
   color: #fe5977;
   justify-content: center;
   background-color: #0f9965;
+  cursor: pointer;
 }
 
 .list {
@@ -34,4 +35,5 @@
   text-decoration: none;
   font-size: 0.8rem;
   justify-content: center;
+  cursor: pointer;
 }

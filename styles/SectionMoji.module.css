@@ -5,3 +5,7 @@
     width: 10%;
     gap: 1rem;
 }
+
+.sectionMoji p {
+    cursor: pointer;
+}
