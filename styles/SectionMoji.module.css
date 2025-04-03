@@ -1,0 +1,7 @@
+.sectionMoji{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    gap: 1rem;
+}
