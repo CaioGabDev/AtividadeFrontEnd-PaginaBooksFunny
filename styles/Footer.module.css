@@ -10,10 +10,18 @@
     z-index: 100;
 }
 
+.headerRow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
 .title {
     display: flex;
     font-size: 2rem;
     font-weight: bold;
+    width: 15rem;
 }
 
 .subtitle {
