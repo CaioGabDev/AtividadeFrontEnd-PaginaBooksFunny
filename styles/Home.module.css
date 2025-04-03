@@ -26,4 +26,10 @@
     background-color: #ffffff;
     color: #0f9965;
     font-weight: bold;
-}   
+} 
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
