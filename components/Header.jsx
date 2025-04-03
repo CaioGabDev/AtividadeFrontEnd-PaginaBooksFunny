@@ -1,5 +1,5 @@
 import styles from '../styles/Header.module.css';
-
+import Navegation from './Navegation';
 
 export default function Header(){
     return (
@@ -8,14 +8,7 @@ export default function Header(){
                 <h1>📚Books and funny</h1>
                 <p>Onde ler é a maior diversão</p>
             </div>
-            <div className={styles.navegation}>
-            <ul>
-                <li>Home</li>
-                <li>Books</li>
-                <li>Authors</li>
-                <li>Genres</li>
-            </ul>
-            </div>
+            <Navegation />
             <input className={styles.input} type="text" placeholder='Buscar livros, autores...' />
             <img src="" alt="" />
         </header>
