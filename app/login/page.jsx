@@ -25,8 +25,12 @@ export default function Home() {
                     <Card image="https://m.media-amazon.com/images/I/710HGTP2esL._AC_UF1000,1000_QL80_.jpg" title="Livro do MAIOR" author="Enzo Turcovic" price="R$ 177,00" rating={5} />
                 </div>
             </div>
-
+            <div className="titleSection">
+                    <h1>Categorias Populares</h1>
+                    <p className={styles.viewall}>Ver todos</p>
+                </div>
             <section className="categorias">
+                
                 <CardCategorie
                     emoji="🚀"
                     categoria="Ficção científica"
