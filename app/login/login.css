@@ -64,3 +64,47 @@
     justify-content: center;
     gap: 1rem;
 }
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: #51d69f;
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 1rem;
+}
+
+.news {
+    color: #ffffff;
+}
+
+.info {
+    color: #ffffff;
+}
+
+.inputnews {
+    border-radius: 5px;
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.emailnews {
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px 0px 0px 5px;
+    border: solid 1px #ffffff;
+}
+
+.assinar {
+    background-color: #fe5977;
+    border-radius: 0px 5px 5px 0px;
+    color: #ffffff;
+    height: 2.2rem;
+    border: none;
+    border: solid 1px #ffffff;
+}
