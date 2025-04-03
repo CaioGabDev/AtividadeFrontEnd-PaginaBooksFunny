@@ -29,6 +29,7 @@
     background-color: #ffffff;
     color: #0f9965;
     font-weight: bold;
+    cursor: pointer;
 } 
 
 .cards {
@@ -55,10 +56,11 @@
     flex-direction: row;
     gap: 37rem;
     color: #1d9f6d;
+    align-items: center;
 }
 
 .categorias {
     display: flex;
-    margin: 0 16%;
+    justify-content: center;
     gap: 1rem;
 }
